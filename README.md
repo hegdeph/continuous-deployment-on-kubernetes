@@ -2,6 +2,7 @@
 
 For a more in depth best practices guide, go to the solution posted [here](https://cloud.google.com/solutions/jenkins-on-container-engine).
 
+
 | Test          |   Result      |
 | ------------- |---------------|
 | Tutorial      | ![badge](https://concourse.dev.vicnastea.io/api/v1/teams/main/pipelines/cd-on-k8s-regression/jobs/test-tutorial/badge) |
