@@ -47,8 +47,9 @@ spec:
       steps {
         container('golang') {
           sh """
+            export GOPATH=$WORKSPACE
             ln -s `pwd` /sample-app
-            cd /sample-app
+            cd sample-app
             go test
           """
         }
